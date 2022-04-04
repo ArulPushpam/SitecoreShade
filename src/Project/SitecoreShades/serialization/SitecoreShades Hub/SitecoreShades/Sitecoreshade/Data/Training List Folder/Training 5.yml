@@ -1,0 +1,46 @@
+﻿---
+ID: "e2b0051d-1f85-4032-b64b-ae9e50d99af0"
+Parent: "31b126c7-bb69-436d-a4f0-661b0ba191ed"
+Template: "b43b6148-d5ba-4894-8178-bde628517211"
+Path: /sitecore/content/SitecoreShades/Sitecoreshade/Data/Training List Folder/Training 5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220320T102343Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80a2c56f-73e0-4bb4-a21c-52213ff645f9"
+    - ID: "a30e63d6-ea8e-4e18-ba8d-8cb0433f9fbe"
+      Hint: TrainingTitle
+      Value: Training 5
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c84a3385-8a56-4918-8051-f9851c9b8ebc"
+      Hint: Description
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    - ID: "c99ef5a9-351e-441c-b9bb-1270dc68f7f3"
+      Hint: EndDate
+      Value: 20220422T102700Z
+    - ID: "d75b1200-945a-4d3e-9361-f14ac713bf14"
+      Hint: StartDate
+      Value: 20220320T102700Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220320T102717Z
+    - ID: "f7a1c1d0-104b-4f79-88c5-2ef113c5580c"
+      Hint: Location
+      Value: UK

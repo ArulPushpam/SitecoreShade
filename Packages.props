@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  These props are used by Central Package Versions to ensure consistent NuGet
+  package versions in your Visual Studio projects.
+  https://github.com/microsoft/MSBuildSdks/tree/master/src/CentralPackageVersions
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <PlatformVersion>10.2.0</PlatformVersion>
+        <SxaVersion>10.2.0</SxaVersion>
+        <SitecoreServicesVersion>10.2.0</SitecoreServicesVersion>
+        <SitecoreAspNetVersion>16.0.0</SitecoreAspNetVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.CES.GeoIp" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Analytics" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Kernel" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Logging" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Mvc" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.ExperienceForms" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.ExperienceForms.Mvc" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Annotations" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Buckets" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.ContentSearch" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.ContentSearch.Data" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.ContentSearch.Linq" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.Services.Infrastructure" Version="$(PlatformVersion)" />
+        <PackageReference Update="Sitecore.LayoutService" Version="7.0.0" />
+        <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="17.0.0" />
+
+        <PackageReference Update="Sitecore.AspNet.ExperienceEditor" Version="$(SitecoreAspNetVersion)" />
+        <PackageReference Update="Sitecore.AspNet.Tracking" Version="$(SitecoreAspNetVersion)" />
+        <PackageReference Update="Sitecore.AspNet.Tracking.VisitorIdentification" Version="$(SitecoreAspNetVersion)" />
+        <PackageReference Update="Sitecore.LayoutService.Client" Version="$(SitecoreAspNetVersion)" />
+        <PackageReference Update="Sitecore.AspNet.RenderingEngine" Version="$(SitecoreAspNetVersion)" />
+
+        <PackageReference Update="Sitecore.Services.GraphQL" Version="$(SitecoreServicesVersion)" />        
+        <PackageReference Update="Sitecore.Services.GraphQL.ContentSchema" Version="$(SitecoreServicesVersion)" />
+
+        <PackageReference Update="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+        <PackageReference Update="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+        <PackageReference Update="Microsoft.Extensions.Http" Version="3.1.1" />
+        <PackageReference Update="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+
+        <PackageReference Update="Newtonsoft.Json" Version="11.0.2" />
+
+        <PackageReference Update="Sitecore.ExperienceEditor.Speak.Ribbon" Version="$(SitecoreServicesVersion)" />
+        
+        <!-- <PackageReference Update="Microsoft.AspNet.Mvc" Version="5.2.7" /> -->
+
+        <!-- Begin Solution Modifications -->
+        <PackageReference Update="Sitecore.Assemblies.SitecoreExperienceAccelerator" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Feature.Analytics" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Feature.Navigation" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Feature.SiteMetadata" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Abstractions" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Caching" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Grid" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.IoC" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.LocalDatasources" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.MarkupDecorator" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Multisite" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Mvc" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Presentation" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.RenderingVariants" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Scriban" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Search" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.SitecoreExtensions" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.TokenResolution" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.XA.Foundation.Variants.Abstractions" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.ExperienceEditor" Version="$(SxaVersion)" />
+        <PackageReference Update="Sitecore.ExperienceEditor.Speak" Version="$(SxaVersion)" />
+        <PackageReference Update="Unicorn" Version="4.1.6" />
+        <PackageReference Update="Unicorn.Roles.Core" Version="4.1.6" />
+        <PackageReference Update="Scriban" Version="2.0.1" />
+    </ItemGroup>
+</Project>

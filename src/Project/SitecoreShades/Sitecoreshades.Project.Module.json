@@ -1,0 +1,18 @@
+{
+  "namespace": "Project.SitecoreShades",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/SitecoreShades",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "SitecoreShades Hub",
+        "path": "/sitecore/content/SitecoreShades",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}
+

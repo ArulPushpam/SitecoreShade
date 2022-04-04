@@ -1,0 +1,29 @@
+﻿---
+ID: "21101053-657c-4f7c-807f-1edd5b1dbb7c"
+Parent: "31b126c7-bb69-436d-a4f0-661b0ba191ed"
+Template: "b43b6148-d5ba-4894-8178-bde628517211"
+Path: /sitecore/content/SitecoreShades/Sitecoreshade/Data/Training List Folder/Training 7
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220320T102418Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a463e4bc-9377-4e88-abf8-4c50ce9c8f36"
+    - ID: "a30e63d6-ea8e-4e18-ba8d-8cb0433f9fbe"
+      Hint: TrainingTitle
+      Value: Training 7
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c84a3385-8a56-4918-8051-f9851c9b8ebc"
+      Hint: Description
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220320T102518Z

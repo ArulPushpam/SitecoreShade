@@ -1,0 +1,12 @@
+{
+  "namespace": "Foundation.Search",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Foundation/SitecoreShade/Mapping",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

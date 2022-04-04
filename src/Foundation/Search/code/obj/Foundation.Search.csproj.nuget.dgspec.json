@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\Foundation.Search.csproj": {}
+  },
+  "projects": {
+    "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\Foundation.Search.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\Foundation.Search.csproj",
+        "projectName": "Foundation.Search",
+        "projectPath": "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\Foundation.Search.csproj",
+        "packagesPath": "C:\\Users\\ArulM\\.nuget\\packages\\",
+        "outputPath": "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\sitecore\\Module\\Helix Starter Kit\\NuGet.Config",
+          "C:\\Users\\ArulM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Sitecore.Analytics": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Sitecore.ContentSearch": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Sitecore.ContentSearch.Linq": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Sitecore.Kernel": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

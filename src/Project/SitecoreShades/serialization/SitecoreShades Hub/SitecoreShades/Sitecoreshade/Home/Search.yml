@@ -1,0 +1,29 @@
+﻿---
+ID: "bcdee00b-eca2-4c4f-b202-7ad1198d2bdf"
+Parent: "da60e867-5768-4e3f-8e0d-a9bd324d835c"
+Template: "d5d8fb1f-3e93-49f5-b51d-3cf2e13899ff"
+Path: /sitecore/content/SitecoreShades/Sitecoreshade/Home/Search
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220319T140642Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20228e29-fa1c-4550-a456-c9ccdeb0fb4c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220319T140642Z
+    - ID: "df290c71-f237-4cf0-8c1a-b0cf609cf865"
+      Hint: Title
+      Value: Search
