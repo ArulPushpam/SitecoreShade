@@ -24,6 +24,8 @@
     <PkgEnterpriseLibrary_TransientFaultHandling_Caching Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_Caching)' == '' ">C:\Users\ArulM\.nuget\packages\enterpriselibrary.transientfaulthandling.caching\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_Caching>
     <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\ArulM\.nuget\packages\enterpriselibrary.common\6.0.1304</PkgEnterpriseLibrary_Common>
     <PkgEnterpriseLibrary_TransientFaultHandling_Configuration Condition=" '$(PkgEnterpriseLibrary_TransientFaultHandling_Configuration)' == '' ">C:\Users\ArulM\.nuget\packages\enterpriselibrary.transientfaulthandling.configuration\6.0.1304</PkgEnterpriseLibrary_TransientFaultHandling_Configuration>
-    <Pkg51Degrees_mobi-core Condition=" '$(Pkg51Degrees_mobi-core)' == '' ">C:\Users\ArulM\.nuget\packages\51degrees.mobi-core\3.2.17.2</Pkg51Degrees_mobi-core>
+    <PkgRazorGenerator_Mvc Condition=" '$(PkgRazorGenerator_Mvc)' == '' ">C:\Users\ArulM\.nuget\packages\razorgenerator.mvc\2.4.9</PkgRazorGenerator_Mvc>
+    <PkgRazorGenerator_MsBuild Condition=" '$(PkgRazorGenerator_MsBuild)' == '' ">C:\Users\ArulM\.nuget\packages\razorgenerator.msbuild\2.4.7</PkgRazorGenerator_MsBuild>
+    <PkgAjaxMin Condition=" '$(PkgAjaxMin)' == '' ">C:\Users\ArulM\.nuget\packages\ajaxmin\5.14.5506.26202</PkgAjaxMin>
   </PropertyGroup>
 </Project>

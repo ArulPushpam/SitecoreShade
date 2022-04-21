@@ -41,7 +41,7 @@
             },
             "Sitecore.Analytics": {
               "target": "Package",
-              "version": "[10.2.0, )"
+              "version": "(, )"
             },
             "Sitecore.ContentSearch": {
               "target": "Package",
@@ -54,6 +54,18 @@
             "Sitecore.Kernel": {
               "target": "Package",
               "version": "[10.2.0, )"
+            },
+            "Sitecore.XA.Foundation.Scriban": {
+              "target": "Package",
+              "version": "[10.2.0, )"
+            },
+            "Sitecore.XA.Foundation.Search": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Sitecore.XA.Foundation.TokenResolution": {
+              "target": "Package",
+              "version": "(, )"
             }
           }
         }
