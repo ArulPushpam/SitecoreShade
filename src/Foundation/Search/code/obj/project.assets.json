@@ -2335,13 +2335,49 @@
           "lib/net48/Sitecore.XA.Foundation.Scriban.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.Search/2.7.0": {
+      "Sitecore.XA.Foundation.Search/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0",
+          "Sitecore.XA.Foundation.Geospatial": "10.2.0",
+          "Sitecore.XA.Foundation.LocalDatasources": "10.2.0",
+          "Sitecore.XA.Foundation.Multisite": "10.2.0",
+          "Sitecore.XA.Foundation.SitecoreExtensions": "10.2.0",
+          "Spatial4n.Core": "0.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         }
       },
       "Sitecore.XA.Foundation.SitecoreExtensions/10.2.0": {
@@ -2437,13 +2473,53 @@
           "lib/net48/Sitecore.XA.Foundation.Theming.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.TokenResolution/2.7.0": {
+      "Sitecore.XA.Foundation.TokenResolution/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
+        }
+      },
+      "Spatial4n.Core/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Spatial4n.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Spatial4n.Core.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -4992,13 +5068,49 @@
           "lib/net48/Sitecore.XA.Foundation.Scriban.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.Search/2.7.0": {
+      "Sitecore.XA.Foundation.Search/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0",
+          "Sitecore.XA.Foundation.Geospatial": "10.2.0",
+          "Sitecore.XA.Foundation.LocalDatasources": "10.2.0",
+          "Sitecore.XA.Foundation.Multisite": "10.2.0",
+          "Sitecore.XA.Foundation.SitecoreExtensions": "10.2.0",
+          "Spatial4n.Core": "0.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         }
       },
       "Sitecore.XA.Foundation.SitecoreExtensions/10.2.0": {
@@ -5094,13 +5206,53 @@
           "lib/net48/Sitecore.XA.Foundation.Theming.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.TokenResolution/2.7.0": {
+      "Sitecore.XA.Foundation.TokenResolution/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
+        }
+      },
+      "Spatial4n.Core/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Spatial4n.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Spatial4n.Core.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -7637,13 +7789,49 @@
           "lib/net48/Sitecore.XA.Foundation.Scriban.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.Search/2.7.0": {
+      "Sitecore.XA.Foundation.Search/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0",
+          "Sitecore.XA.Foundation.Geospatial": "10.2.0",
+          "Sitecore.XA.Foundation.LocalDatasources": "10.2.0",
+          "Sitecore.XA.Foundation.Multisite": "10.2.0",
+          "Sitecore.XA.Foundation.SitecoreExtensions": "10.2.0",
+          "Spatial4n.Core": "0.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         }
       },
       "Sitecore.XA.Foundation.SitecoreExtensions/10.2.0": {
@@ -7739,13 +7927,53 @@
           "lib/net48/Sitecore.XA.Foundation.Theming.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.TokenResolution/2.7.0": {
+      "Sitecore.XA.Foundation.TokenResolution/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
+        }
+      },
+      "Spatial4n.Core/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Spatial4n.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Spatial4n.Core.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -10282,13 +10510,49 @@
           "lib/net48/Sitecore.XA.Foundation.Scriban.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.Search/2.7.0": {
+      "Sitecore.XA.Foundation.Search/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0",
+          "Sitecore.XA.Foundation.Geospatial": "10.2.0",
+          "Sitecore.XA.Foundation.LocalDatasources": "10.2.0",
+          "Sitecore.XA.Foundation.Multisite": "10.2.0",
+          "Sitecore.XA.Foundation.SitecoreExtensions": "10.2.0",
+          "Spatial4n.Core": "0.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.Search.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.Search.dll": {}
         }
       },
       "Sitecore.XA.Foundation.SitecoreExtensions/10.2.0": {
@@ -10384,13 +10648,53 @@
           "lib/net48/Sitecore.XA.Foundation.Theming.dll": {}
         }
       },
-      "Sitecore.XA.Foundation.TokenResolution/2.7.0": {
+      "Sitecore.XA.Foundation.TokenResolution/10.2.0": {
         "type": "package",
+        "dependencies": {
+          "Sitecore.Kernel": "10.2.0",
+          "Sitecore.XA.Foundation.Abstractions": "10.2.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Win32.Primitives",
+          "System.AppContext",
+          "System.Console",
+          "System.Diagnostics.Tracing",
+          "System.Globalization.Calendars",
+          "System.IO",
+          "System.IO.Compression",
+          "System.IO.Compression.ZipFile",
+          "System.IO.FileSystem",
+          "System.IO.FileSystem.Primitives",
+          "System.Linq",
+          "System.Linq.Expressions",
+          "System.Net.Http",
+          "System.Net.Sockets",
+          "System.Reflection",
+          "System.Runtime",
+          "System.Runtime.Extensions",
+          "System.Runtime.InteropServices",
+          "System.Runtime.InteropServices.RuntimeInformation",
+          "System.Security.Cryptography.Algorithms",
+          "System.Security.Cryptography.Encoding",
+          "System.Security.Cryptography.Primitives",
+          "System.Security.Cryptography.X509Certificates",
+          "System.Text.RegularExpressions",
+          "System.Xml.ReaderWriter"
+        ],
         "compile": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
         },
         "runtime": {
-          "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll": {}
+          "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll": {}
+        }
+      },
+      "Spatial4n.Core/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Spatial4n.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Spatial4n.Core.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -12211,14 +12515,16 @@
         "sitecore.xa.foundation.scriban.nuspec"
       ]
     },
-    "Sitecore.XA.Foundation.Search/2.7.0": {
-      "sha512": "BEqa9wB+QA1EqPRcCth9D+VaaBoigb7U3OQpYbkC3wY73PHF7BzAyc4kTqLSEIz8T4BspR9+fuMzUNCpm6eFRw==",
+    "Sitecore.XA.Foundation.Search/10.2.0": {
+      "sha512": "Sbk5KgE9dh3Atu/ssLFjNUeHc22M5NThbhYKffCVOfm0zDZxh8Wq/J3RWtQolZHN0B1CbPlS14EKSPnUtrS7GQ==",
       "type": "package",
-      "path": "sitecore.xa.foundation.search/2.7.0",
+      "path": "sitecore.xa.foundation.search/10.2.0",
       "files": [
         ".nupkg.metadata",
-        "lib/NET462/Sitecore.XA.Foundation.Search.dll",
-        "sitecore.xa.foundation.search.2.7.0.nupkg.sha512",
+        "Sitecore.Myget.Licence.md",
+        "lib/net48/Sitecore.XA.Foundation.Search.dll",
+        "lib/net48/Sitecore.XA.Foundation.Search.xml",
+        "sitecore.xa.foundation.search.10.2.0.nupkg.sha512",
         "sitecore.xa.foundation.search.nuspec"
       ]
     },
@@ -12248,15 +12554,34 @@
         "sitecore.xa.foundation.theming.nuspec"
       ]
     },
-    "Sitecore.XA.Foundation.TokenResolution/2.7.0": {
-      "sha512": "PcZSgsKh2h6s/+Eb3qpYmCN4+A/3+4OAez8l7GT7wDIB/+AgGW6HhxGxO6CHp91dtNBnW01oFSl/hlppcjTywQ==",
+    "Sitecore.XA.Foundation.TokenResolution/10.2.0": {
+      "sha512": "WWWS75W8rSmTsC6wSLVQ2MWXLA9Do+RTlZDjHxoNrTSlZpc4b1n2XExmMnBc2bvAKYHIR4+yiR3A30diOVw3BA==",
       "type": "package",
-      "path": "sitecore.xa.foundation.tokenresolution/2.7.0",
+      "path": "sitecore.xa.foundation.tokenresolution/10.2.0",
       "files": [
         ".nupkg.metadata",
-        "lib/NET462/Sitecore.XA.Foundation.TokenResolution.dll",
-        "sitecore.xa.foundation.tokenresolution.2.7.0.nupkg.sha512",
+        "Sitecore.Myget.Licence.md",
+        "lib/net48/Sitecore.XA.Foundation.TokenResolution.dll",
+        "lib/net48/Sitecore.XA.Foundation.TokenResolution.xml",
+        "sitecore.xa.foundation.tokenresolution.10.2.0.nupkg.sha512",
         "sitecore.xa.foundation.tokenresolution.nuspec"
+      ]
+    },
+    "Spatial4n.Core/0.3.0": {
+      "sha512": "qDKhFh3nWLgSmX1MKMJh/MPXWHMy0SXuGMFovzK9AjQcTUetZOmNy3oGY2UVOEalw7yY9M8bm5eTThaScRcA/g==",
+      "type": "package",
+      "path": "spatial4n.core/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Spatial4n.Core.XML",
+        "lib/net20/Spatial4n.Core.dll",
+        "lib/net20/Spatial4n.Core.pdb",
+        "lib/net40/Spatial4n.Core.XML",
+        "lib/net40/Spatial4n.Core.dll",
+        "lib/net40/Spatial4n.Core.pdb",
+        "spatial4n.core.0.3.0.nupkg.sha512",
+        "spatial4n.core.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -12728,8 +13053,8 @@
       "Sitecore.ContentSearch.Linq >= 10.2.0",
       "Sitecore.Kernel >= 10.2.0",
       "Sitecore.XA.Foundation.Scriban >= 10.2.0",
-      "Sitecore.XA.Foundation.Search",
-      "Sitecore.XA.Foundation.TokenResolution"
+      "Sitecore.XA.Foundation.Search >= 10.2.0",
+      "Sitecore.XA.Foundation.TokenResolution >= 10.2.0"
     ]
   },
   "packageFolders": {
@@ -12792,11 +13117,11 @@
           },
           "Sitecore.XA.Foundation.Search": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[10.2.0, )"
           },
           "Sitecore.XA.Foundation.TokenResolution": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[10.2.0, )"
           }
         }
       }
@@ -12830,26 +13155,6 @@
       "warningLevel": 1,
       "message": "Project dependency Sitecore.Analytics does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
       "libraryId": "Sitecore.Analytics",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Sitecore.XA.Foundation.Search does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Sitecore.XA.Foundation.Search",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Sitecore.XA.Foundation.TokenResolution does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Sitecore.XA.Foundation.TokenResolution",
       "targetGraphs": [
         ".NETFramework,Version=v4.8"
       ]

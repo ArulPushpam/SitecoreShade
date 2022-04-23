@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QrjMHZrwXjr9T2AoJOdebB5AAUeS8em5VqiseV1r5kSvHr3NL44vRH/gA86z/YCQ+ogq1wXpdcUC3+bZl+OWPQ==",
+  "dgSpecHash": "wOY3+k9mNJSkiQq6BqxWlDa9ikAS1ufJ5pBPdoFrdq70IfNb13VV/cQWF14hEDS/wMo9KPtzJ4KHjfEY/uH6gg==",
   "success": true,
   "projectFilePath": "C:\\sitecore\\Module\\Helix Starter Kit\\src\\Foundation\\Search\\code\\Foundation.Search.csproj",
   "expectedPackageFiles": [
@@ -95,10 +95,11 @@
     "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.presentation\\10.2.0\\sitecore.xa.foundation.presentation.10.2.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.scaffolding\\10.2.0\\sitecore.xa.foundation.scaffolding.10.2.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.scriban\\10.2.0\\sitecore.xa.foundation.scriban.10.2.0.nupkg.sha512",
-    "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.search\\2.7.0\\sitecore.xa.foundation.search.2.7.0.nupkg.sha512",
+    "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.search\\10.2.0\\sitecore.xa.foundation.search.10.2.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.sitecoreextensions\\10.2.0\\sitecore.xa.foundation.sitecoreextensions.10.2.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.theming\\10.2.0\\sitecore.xa.foundation.theming.10.2.0.nupkg.sha512",
-    "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.tokenresolution\\2.7.0\\sitecore.xa.foundation.tokenresolution.2.7.0.nupkg.sha512",
+    "C:\\Users\\ArulM\\.nuget\\packages\\sitecore.xa.foundation.tokenresolution\\10.2.0\\sitecore.xa.foundation.tokenresolution.10.2.0.nupkg.sha512",
+    "C:\\Users\\ArulM\\.nuget\\packages\\spatial4n.core\\0.3.0\\spatial4n.core.0.3.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\ArulM\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
@@ -131,26 +132,6 @@
       "warningLevel": 1,
       "message": "Project dependency Sitecore.Analytics does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
       "libraryId": "Sitecore.Analytics",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Sitecore.XA.Foundation.Search does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Sitecore.XA.Foundation.Search",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8"
-      ]
-    },
-    {
-      "code": "NU1604",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Project dependency Sitecore.XA.Foundation.TokenResolution does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
-      "libraryId": "Sitecore.XA.Foundation.TokenResolution",
       "targetGraphs": [
         ".NETFramework,Version=v4.8"
       ]

@@ -61,11 +61,11 @@
             },
             "Sitecore.XA.Foundation.Search": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[10.2.0, )"
             },
             "Sitecore.XA.Foundation.TokenResolution": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[10.2.0, )"
             }
           }
         }

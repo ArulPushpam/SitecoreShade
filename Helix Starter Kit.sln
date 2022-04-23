@@ -28,11 +28,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{1ACB32
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Training", "Training", "{8DEDE430-75CF-4A01-8E86-02C89B159BD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.ScribanExtensions", "src\Foundation\ScribanExtensions\Foundation.ScribanExtensions\Foundation.ScribanExtensions.csproj", "{E78312B6-D22A-4098-B4C4-22F7574BDE75}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{A049D982-28F2-4034-A686-DE0687ED4A6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.Validation", "src\Foundation\Validation\code\Foundation.Validation.csproj", "{94891D7E-2091-4EF6-AECA-A1240BEB4B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foundation.ScribanExtensions", "src\Foundation\ScribanExtensions\Foundation.ScribanExtensions\Foundation.ScribanExtensions.csproj", "{08AAA6B4-361A-40B9-A0A1-23F3C99C5883}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,14 +52,14 @@ Global
 		{AEBB5E40-0493-4368-9EB9-AA47167A50EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEBB5E40-0493-4368-9EB9-AA47167A50EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEBB5E40-0493-4368-9EB9-AA47167A50EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E78312B6-D22A-4098-B4C4-22F7574BDE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E78312B6-D22A-4098-B4C4-22F7574BDE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E78312B6-D22A-4098-B4C4-22F7574BDE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E78312B6-D22A-4098-B4C4-22F7574BDE75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{94891D7E-2091-4EF6-AECA-A1240BEB4B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94891D7E-2091-4EF6-AECA-A1240BEB4B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94891D7E-2091-4EF6-AECA-A1240BEB4B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94891D7E-2091-4EF6-AECA-A1240BEB4B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AAA6B4-361A-40B9-A0A1-23F3C99C5883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AAA6B4-361A-40B9-A0A1-23F3C99C5883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AAA6B4-361A-40B9-A0A1-23F3C99C5883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AAA6B4-361A-40B9-A0A1-23F3C99C5883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,9 +71,9 @@ Global
 		{A010C2E9-C3F9-46E1-9549-EEBD292EC6BE} = {E3766054-1D8A-4D44-B065-6F943CC15385}
 		{1ACB32BE-A228-4481-BEFF-CEE9AD0FDB6D} = {E3766054-1D8A-4D44-B065-6F943CC15385}
 		{8DEDE430-75CF-4A01-8E86-02C89B159BD4} = {1FB0213A-E9C1-4FCA-A01A-1970FD4DD360}
-		{E78312B6-D22A-4098-B4C4-22F7574BDE75} = {A010C2E9-C3F9-46E1-9549-EEBD292EC6BE}
 		{A049D982-28F2-4034-A686-DE0687ED4A6E} = {E3766054-1D8A-4D44-B065-6F943CC15385}
 		{94891D7E-2091-4EF6-AECA-A1240BEB4B6E} = {A049D982-28F2-4034-A686-DE0687ED4A6E}
+		{08AAA6B4-361A-40B9-A0A1-23F3C99C5883} = {A010C2E9-C3F9-46E1-9549-EEBD292EC6BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45

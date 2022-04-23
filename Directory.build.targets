@@ -16,7 +16,7 @@ Directory.Build.targets
     <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.79" />
 
     <Target Name="AutoWebPublish" AfterTargets="Build" Condition="'$(DeployOnBuild)'=='True' AND '$(UsingMicrosoftNETSdk)' != 'True'">
-        <Message Text="Using Target AutoWebPublish -> $(MSBuildThisFileDirectory)deploy\$(SitecoreRoleType)" Importance="High" />
+        <Message Text="Using Target AutoWebPublish -> $(MSBuildThisFileDirectory)docker\deploy\$(SitecoreRoleType)" Importance="High" />
         <PropertyGroup>
             <publishUrl Condition="!HasTrailingSlash('$(publishUrl)')">$(publishUrl)/</publishUrl>
         </PropertyGroup>

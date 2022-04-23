@@ -1,7 +1,7 @@
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\bin\Project.SitecoreShades.dll.config
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\bin\Project.SitecoreShades.dll
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\bin\Project.SitecoreShades.pdb
+C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\obj\Debug\Project.SitecoreShades.csproj.AssemblyReference.cache
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\obj\Debug\Project.SitecoreShades.csproj.CoreCompileInputs.cache
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\obj\Debug\Project.SitecoreShades.dll
 C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\obj\Debug\Project.SitecoreShades.pdb
-C:\sitecore\Module\Helix Starter Kit\src\Project\SitecoreShades\code\obj\Debug\Project.SitecoreShades.csproj.AssemblyReference.cache
