@@ -24,6 +24,7 @@
         <PackageReference Update="Sitecore.Buckets" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.ContentSearch" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.ContentSearch.Data" Version="$(PlatformVersion)" />
+		 <PackageReference Update="Sitecore.Client" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.ContentSearch.Linq" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.Services.Infrastructure" Version="$(PlatformVersion)" />
         <PackageReference Update="Sitecore.LayoutService" Version="7.0.0" />
